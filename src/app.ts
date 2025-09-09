@@ -1,4 +1,5 @@
 import express, {type Response, type Request} from 'express';
+import instanceDatabase from './database/index.js';
 import dotenv from 'dotenv';
 
 dotenv.config();

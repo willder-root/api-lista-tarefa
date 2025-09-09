@@ -10,13 +10,16 @@
     "lib": ["ESNext"],
     "types": ["node"],
 
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    // "sourceMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
 
     "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
+    "strictPropertyInitialization": false,
 
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
