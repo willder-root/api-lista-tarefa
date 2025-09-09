@@ -1,11 +1,11 @@
 import { Sequelize, type ModelCtor } from 'sequelize-typescript';
-import { Tarefa } from '../models/tarefa.model.js';
+import { Task } from '../models/task.model.js';
 import dbConfig from "../config/database.js";
 
 const instanceDatabase = new Sequelize(dbConfig);
 
 const models: ModelCtor[] = [
-    Tarefa
+    Task
 ]
 
 instanceDatabase.addModels(models)

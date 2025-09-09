@@ -8,8 +8,8 @@ import {
     UpdatedAt
 } from 'sequelize-typescript';
 
-@Table({tableName:"Tarefas"})
-export class Tarefa extends Model<Tarefa>{
+@Table({tableName:"Tasks"})
+export class Task extends Model<Task>{
     @PrimaryKey
     @AutoIncrement
     @Column

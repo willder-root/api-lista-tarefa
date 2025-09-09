@@ -1,7 +1,7 @@
 import { DataTypes, QueryInterface } from 'sequelize';
 
 export const up = (queryInterface:QueryInterface): any => {
-        return queryInterface.createTable("Tarefas",{
+        return queryInterface.createTable("Tasks",{
             id:{
                 type: DataTypes.INTEGER,
                 autoIncrement: true,
@@ -33,5 +33,5 @@ export const up = (queryInterface:QueryInterface): any => {
 
 
 export const down = (queryInterface: QueryInterface): any =>{
-        return queryInterface.dropTable("Tarefas")
+        return queryInterface.dropTable("Tasks")
 }
